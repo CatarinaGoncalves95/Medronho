@@ -1,0 +1,96 @@
+<html lang="pt">
+
+<head> 
+    <meta charset="UTF-8"> 
+    <title>Home Page Medronho</title>
+    <link href="styles.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body bgcolor="#009999">
+
+
+<header>
+    <span  id="menu" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        <div id="video"> 
+            <video autoplay="true" loop>
+    <source src="videoarbutus.mp4"type="video/mp4">
+             </video>  
+        </div>
+ <div id="logo"><img src="arbutus2.png"/> 
+    </div>
+
+</header>
+
+
+<div id="mySidenav" class="sidenav">
+
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+    <nav>
+  <ul>
+      <li>
+          <a href="sobre.html">Sobre</a>
+          </li>
+    </ul>
+ <ul>
+     <li>
+          <a href="produtos.html">Produtos</a>
+         </li>
+    </ul>
+<ul>
+    <li>
+          <a href="contactos.html">Contactos</a>
+    </li>
+</ul>
+    </nav>
+</div>
+
+<script> 
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+<main>
+
+
+    <img src="simbolofinalmesmo.png" width="270" height="230" id="centro"/>
+
+
+    <h1>Medronho,</h1>
+    <h2>Um Rubi à Beira-Mar plantado.</h2>
+
+   <div id=" button">
+<form action="sobre.html">
+			<input id="button" type="submit" value="Saiba Mais" />
+</form>
+    </div>
+  
+</main>
+
+<footer align="center">
+    <section>
+        <div class="rede" id="facebook">
+        <img class="icon" src="icons/facebook.png"/>
+        <a href="http://www.googleplus.com"></a>
+        </div>
+
+        <div class="rede" id="instagram">
+         <img class="icon" src="icons/instagram.png"/>
+         </div>
+
+        <div class="rede" id="googleplus">
+         <img class="icon" src="icons/plus.png"/>
+         </div>
+
+    </section>
+
+
+</footer>
+
+</body> 
+</html>
